@@ -1,0 +1,36 @@
+.project-section {
+    padding: 40px;
+    background-color: rgb(87, 231, 187);
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(31, 32, 33, 0.2) 0px 8px 24px;
+    padding:10px;
+  }
+  
+  .project-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

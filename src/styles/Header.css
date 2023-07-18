@@ -1,0 +1,40 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    z-index: 100;
+  }
+  
+  .header-right button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  
+  .header-left a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.3s ease;
+    padding-right: 10px;
+  }
+  
+  .header-left a:hover {
+    opacity: 0.7;
+  }
+  
+  .header-left img {
+    width: 24px;
+    height: 24px;
+  }
+  
